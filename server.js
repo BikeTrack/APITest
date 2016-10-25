@@ -61,7 +61,7 @@ const apiKey = require('./config/apiKey');
 // app.use(apiKey);
 
 // Routes
-const routes = require('./app/routes/index')(app, passport);
+require('./app/routes/index')(app, passport);
 // app.use('/', routes);
 
 

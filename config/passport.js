@@ -127,7 +127,7 @@ module.exports = function(passport) {
   },
 
   // facebook will send back the token and profile
-  function(token, refreshToken, profile, done) {
+  function(req, token, refreshToken, profile, done) {
 
     // asynchronous
     process.nextTick(function() {

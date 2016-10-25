@@ -1,5 +1,5 @@
 {
-  "name": "API_BikeTrack",
+  "name": "API_BikeTrack_v2",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,13 @@
     "body-parser": "~1.15.1",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.1",
     "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
     "ejs": "~2.4.1",
     "express": "~4.13.4",
     "express-session": "^1.14.1",
+    "helmet": "^2.3.0",
     "mongoose": "^4.6.3",
     "morgan": "~1.7.0",
     "node-sass-middleware": "0.8.0",
