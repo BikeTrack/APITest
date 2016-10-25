@@ -51,21 +51,21 @@ API_KEY_APP=1234567890
 
 * Classic
 
-`node server.js`
+`node bin/www`
 
 * With File Watcher
 
 > if [nodemon](https://www.npmjs.com/package/nodemon) is not installed first :
 `npm install nodemon -g`
 
-`nodemon server.js`
+`nodemon bin/www`
 
 * The best option with app monitoring, file watcher and much more...
 
 > if [PM2](http://pm2.keymetrics.io) is not installed first :
 `npm install -g pm2`
 
-`pm2 start server.js`
+`pm2 start bin/www`
 
 
 
