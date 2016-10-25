@@ -49,23 +49,24 @@ API_KEY_APP=1234567890
 ### Run Project
 ####3 ways
 
-1. Classic
+* Classic
 
 `node server.js`
 
-2. With File Watcher
+* With File Watcher
 
 > if [nodemon](https://www.npmjs.com/package/nodemon) is not installed first :
 `npm install nodemon -g`
 
 `nodemon server.js`
 
-3. The best option with app monitoring, file watcher and much more...
+* The best option with app monitoring, file watcher and much more...
 
 > if [PM2](http://pm2.keymetrics.io) is not installed first :
 `npm install -g pm2`
 
-`nodemon server.js`
+`pm2 start server.js`
+
 
 
 Made by [Gil Felot](gfelot.xyz) with ❤️
