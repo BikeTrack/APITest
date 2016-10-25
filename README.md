@@ -12,8 +12,8 @@ Node (v6) and NPM already installed on your computer.
     }`
 
 ### Clone the depot
-`cd whereYouWannaClone`
-`git clone https://nodejs.org/en/download/`
+`cd whereYouWannaClone
+git clone https://nodejs.org/en/download/`
 
 ### Install the libraries
 `npm install`
