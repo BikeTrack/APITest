@@ -17,7 +17,7 @@ if (!node) {
 ### Clone the depot
 ```bash
 cd whereYouWannaClone
-git clone https://nodejs.org/en/download/
+git clone git@github.com:BikeTrack/APIv2.git
 ```
 
 ### Install the libraries
